@@ -26,15 +26,13 @@ install_requires=['paramiko>=2.0,<3.0', 'six>=1.10.0']
 
 
 setup(
-    name='Fabric3',
+    name='fabric-e2e',
     version=get_version('short'),
     description='Fabric is a simple, Pythonic tool for remote execution and deployment (py2.7/py3.4+ compatible fork).',
     long_description=long_description,
-    author='Jeff Forcier',
-    author_email='jeff@bitprophet.org',
-    maintainer='Mathias Ertl',
-    maintainer_email='mati@er.tl',
-    url='https://github.com/mathiasertl/fabric/',
+    author='Rounak Kabra',
+    author_email='rounak.kabra@e2enetworks.com',
+    url='https://github.com/rounak-kabra/fabric-e2e',
     packages=find_packages(),
     test_suite='nose.collector',
     tests_require=['nose<2.0', 'fudge<1.0', 'jinja2<3.0'],
